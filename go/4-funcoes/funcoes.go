@@ -20,4 +20,9 @@ func main() {
 	var mathSum, _ byte = mathCalcs(20, 10)
 
 	fmt.Println(mathSum)
+
+	fmt.Println("jx ")
+
+	fmt.println("jefferson")
+
 }
