@@ -21,8 +21,7 @@ func main() {
 
 	fmt.Println(mathSum)
 
-	fmt.Println("jx ")
+	fmt.Println("jx")
 
-	fmt.println("jefferson")
-
+	fmt.Println("jefferson")
 }
