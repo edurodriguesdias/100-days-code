@@ -11,5 +11,4 @@ func main() {
 	fmt.Println(slice)
 	fmt.Println(len(slice)) //length
 	fmt.Println(cap(slice)) //capacidade
-
 }

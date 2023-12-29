@@ -22,20 +22,20 @@ func main() {
 
 	names := [3]string{"Harry", "Kate", "Jessi"}
 
-	for _, value := range names {
+	for _, value := range names { //Iterar sobre uma lista
 		fmt.Println(value)
 	}
 
-	for index, letter := range "WORD" {
-		fmt.Println(index, string(letter))
+	for index, letter := range "WORD" { //Iterar sobre uma string, mas por padrão é retornado os códigos ASC
+		fmt.Println(index, string(letter)) //uso da função string para "decodificar" os códigos ASC para letras
 	}
 
-	user := map[string]string{
+	User := map[string]string{
 		"name":    "João",
 		"surname": "Silva",
 	}
 
-	for index, value := range user {
-		fmt.Println(index, value)
+	for _, value := range User {
+		fmt.Println(value)
 	}
 }

@@ -10,7 +10,7 @@ func main() {
 		MOD %
 
 		Operadores de Atribuição
-		Atribuição = / :=
+		Atribuição = / := ## Atribuição com inferência de tipo
 
 		Operadores Relacionais (Bool)
 		Maior >

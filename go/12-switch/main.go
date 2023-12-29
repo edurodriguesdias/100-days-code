@@ -5,6 +5,7 @@ import "fmt"
 func dayOfWeek(day int) string {
 	switch day {
 	case 1:
+		//fallthrough - entra na próxima cláusula sem avaliar a condição
 		return "Domingo"
 	case 2:
 		return "Segunda-Feira"

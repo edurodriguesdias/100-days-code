@@ -15,7 +15,7 @@ func main() {
 		fmt.Println("Menor que 15")
 	}
 
-	if otherNumber := number; otherNumber > 0 {
+	if otherNumber := number; otherNumber > 0 { //Var limitada ao escopo do if
 		fmt.Println("Mair que zero")
 	}
 
