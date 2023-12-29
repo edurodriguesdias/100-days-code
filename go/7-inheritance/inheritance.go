@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-type person struct {
+type Person struct {
 	name    string
 	surname string
 	age     uint8
 	height  uint8
 }
 
-type student struct {
-	person
+type Student struct {
+	Person
 	course  string
 	college string
 }
@@ -18,9 +18,9 @@ type student struct {
 func main() {
 	fmt.Println("Inheritance")
 
-	people := person{"Eduardo", "Dias", 25, 175}
+	people := Person{"Eduardo", "Dias", 25, 175}
 
-	peopleStudent := student{people, "Analise de sistemas", "USP"}
+	peopleStudent := Student{people, "Analise de sistemas", "USP"}
 
 	fmt.Println(people)
 	fmt.Println(peopleStudent)

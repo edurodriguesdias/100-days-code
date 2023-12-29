@@ -2,29 +2,29 @@ package main
 
 import "fmt"
 
-type user struct {
+type User struct {
 	name    string
 	age     byte
 	address address
 }
 
-type address struct {
+type Address struct {
 	street string
 	number byte
 }
 
 func main() {
-	var customer user
+	var customer User
 
 	customer.name = "Eduardo"
 	customer.age = 25
 	fmt.Println(customer)
 
-	addressExample := address{"Rua pedro s", 202}
+	addressExample := Address{"Rua pedro s", 202}
 
-	seller := user{"João", 30, addressExample}
+	seller := User{"João", 30, addressExample}
 	fmt.Println(seller)
 
-	driver := user{age: 21}
+	driver := User{age: 21}
 	fmt.Println(driver)
 }
